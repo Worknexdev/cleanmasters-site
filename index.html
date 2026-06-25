@@ -84,6 +84,19 @@
     "availableLanguage": "Portuguese"
   },
   "sameAs": ["https://www.linkedin.com/company/cleanmasters-higiene-especializada"],
+  "owns": {
+    "@type": "SoftwareApplication",
+    "name": "CleanSystem",
+    "applicationCategory": "BusinessApplication",
+    "description": "Inteligência operacional proprietária que acompanha equipes em tempo real, detecta ausências e aciona reserva técnica automaticamente.",
+    "author": {
+      "@type": "Organization",
+      "name": "Worknex",
+      "url": "https://worknex.tech",
+      "description": "Empresa de software que desenvolve o ecossistema operacional para facilities e serviços terceirizados.",
+      "sameAs": ["https://worknex.tech", "https://www.linkedin.com/company/worknex"]
+    }
+  },
   "slogan": "Higiene e conservação especializadas",
   "knowsAbout": ["Terceirização de limpeza", "Conservação predial", "Higienização hospitalar", "Limpeza corporativa", "Limpeza hoteleira", "Limpeza de fachadas e vidros", "Limpeza de carpetes e estofados", "Terceirização de mão de obra", "Segurança do trabalho NR-1", "Inteligência operacional"],
   "hasOfferCatalog": {
@@ -139,7 +152,7 @@
     {
       "@type": "Question",
       "name": "O que é o CleanSystem?",
-      "acceptedAnswer": { "@type": "Answer", "text": "É a inteligência operacional proprietária da Clean Masters. O CleanSystem acompanha as equipes em tempo real, detecta ausências e imprevistos no momento em que acontecem e aciona a reserva técnica automaticamente, garantindo que a operação não pare. Para o cliente, isso significa qualidade previsível e menos surpresas." }
+      "acceptedAnswer": { "@type": "Answer", "text": "É a inteligência operacional proprietária da Clean Masters, desenvolvida pela Worknex. O CleanSystem acompanha as equipes em tempo real, detecta ausências e imprevistos no momento em que acontecem e aciona a reserva técnica automaticamente, garantindo que a operação não pare. Para o cliente, isso significa qualidade previsível e menos surpresas." }
     }
   ]
 }
@@ -491,6 +504,10 @@
   .foot-legal{display:flex;gap:18px;flex-wrap:wrap}
   .foot-legal a{font-size:13px;color:rgba(255,255,255,.6);text-decoration:none;transition:color .3s}
   .foot-legal a:hover{color:#fff}
+  .foot-tech{margin-top:18px;padding-top:16px;border-top:1px solid rgba(255,255,255,.08);text-align:center}
+  .foot-tech span{font-size:13px;color:rgba(255,255,255,.45)}
+  .foot-tech a{color:var(--blue);font-weight:500;text-decoration:none}
+  .foot-tech a:hover{text-decoration:underline}
 
   /* ============ WHATSAPP FLOAT ============ */
   .wa-float{position:fixed;bottom:26px;right:26px;z-index:1100}
@@ -951,7 +968,7 @@ FIM-OCULTO -->
       <div class="faq-item reveal reveal-d3">
         <div class="faq-q" onclick="toggleFaq(this)"><span>O que é o CleanSystem?</span>
           <div class="faq-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14"/></svg></div></div>
-        <div class="faq-a"><div class="faq-a-inner">É a inteligência operacional proprietária da Clean Masters. O CleanSystem acompanha as equipes em tempo real, detecta ausências e imprevistos no momento em que acontecem e aciona a reserva técnica automaticamente — garantindo que a operação não pare. Para o cliente, isso significa qualidade previsível e menos surpresas.</div></div>
+        <div class="faq-a"><div class="faq-a-inner">É a inteligência operacional proprietária da Clean Masters, desenvolvida pela Worknex. O CleanSystem acompanha as equipes em tempo real, detecta ausências e imprevistos no momento em que acontecem e aciona a reserva técnica automaticamente — garantindo que a operação não pare. Para o cliente, isso significa qualidade previsível e menos surpresas.</div></div>
       </div>
     </div>
   </div>
@@ -998,6 +1015,9 @@ FIM-OCULTO -->
         <a href="privacidade.html">Privacidade</a>
         <a href="cookies.html">Cookies</a>
       </div>
+    </div>
+    <div class="foot-tech">
+      <span>CleanSystem é desenvolvido pela <a href="https://worknex.tech" target="_blank" rel="noopener">Worknex</a></span>
     </div>
   </div>
 </footer>
